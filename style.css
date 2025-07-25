@@ -1,0 +1,261 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.modify{
+    display: flex;
+    list-style: none;
+     
+ 
+}
+.nav-link {
+   justify-content: space-between;
+    margin-right: 30px;
+     text-decoration: none;
+     
+
+}
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin-left: 30px;
+    
+  
+}
+.Highlights{
+    flex-wrap: wrap;
+    font-size: 150%;
+}
+
+.nav-color{
+    color: gray;
+}
+.nav-one{
+    color:black;
+}
+.text-part{
+   gap:
+}
+
+.image{
+   
+   
+}
+.governing-body{
+   display: flex;
+   align-items: end;
+   padding:200px 100px 200px 100px;
+   margin: auto;
+}
+.orange{
+    color: orangered;
+}
+.paragraph-change{
+    flex-wrap: wrap;
+}
+
+.governing-body-2{
+    display: block;
+    justify-items: center;
+  
+}
+.text-size{
+    font-size: 200%;
+}
+.orange-btn{
+    background-color: rgb(243, 95, 41);
+    color: antiquewhite;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    
+    margin-bottom: 10%;
+}
+.card{
+    display: block;
+    
+}
+.card-base{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+    padding: 10%;
+    padding-top:2%;
+
+}
+h5{
+   
+    
+}
+.flower-cell{
+    display: flex;
+    /* padding: 10%; */
+    justify-content: space-evenly;
+    padding: 10%;
+    align-items: center;
+    gap: 60px;
+    
+} */
+
+
+ .bold-marks h1{
+    text-align: center;
+    margin: 5%;
+    padding: 10%;
+
+  
+    
+      }
+      .text{
+        font-size: 50px;
+      }
+      .list{
+        margin-bottom: 10px;
+        color: rgba(51, 50, 50, 0.705);
+    }
+    .heading{
+        
+        
+    }
+    .badge{
+     width: 13%;
+     position:absolute;
+     left:620px ;
+    bottom:-1600px   ;
+    }
+    .text-color{
+        color: rgb(46, 45, 45);
+    }
+    .span{
+        color: orangered;
+    }
+    .division-3{
+        text-align: center;
+        font-size: larger;
+    }
+    .images{
+        display: flex;
+        justify-content: space-evenly;
+        border-radius: 10%;
+        padding-bottom: 119px;
+        
+        
+        
+    }
+    .photo-part{
+        
+    }
+
+    
+
+    .bg1{
+        width: 367px;
+        height:200px;
+        
+     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/deal-bloom.png);
+     /* padding: 10%;
+     background-repeat: no-repeat; */
+     
+     border-radius: 22px;
+     
+     
+
+
+    }
+    .bg2 {
+        width: 367px;
+        height: 200px;
+        
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/deal-ana.png');
+    border-radius: 22px;
+
+    }
+
+    .bg3{
+      width: 700px;
+      height: 450px;
+      background-image: url(./assets/deal-zabo.png);
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/deal-zabo.png');
+    border-radius: 22px;}
+    .white{
+        color: white;
+        text-align: center;
+        justify-content: center;
+        position: relative;
+        top: 50%;
+        bottom: 50%;
+        }
+        .size{
+            font-size: larger;
+        }
+        .division-3{
+            font-size: larger;
+        }
+
+        .footer-img{
+              background-image: url(./assets/news-letter-bg.png);
+            background-size: cover;
+            padding: 0px;
+            margin: 0PX;
+            width: 100vw;
+            height: 500px;
+            
+
+
+            
+        }
+        .mail-footer{
+           
+    
+            text-align: center;
+            position: relative;
+            top: 50%;
+            bottom: 50%;
+
+        }
+#mail-chamber{
+    width: 750px;
+    height: 50px; 
+    align-items: center;
+    justify-items: center;
+    padding-left:10px ;
+
+}
+
+.mail-footer h1 {
+    color: aliceblue;
+}
+
+.orange-btn{
+    background-color: rgb(243, 95, 41);
+    color: antiquewhite;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    
+    margin-bottom: 10%;
+}
+ .align{
+    display: flex;
+ }
+
+ .grid-align{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+ }
+
+ .first-five .second-five{
+    display: grid;
+    grid-template-columns:repeat(4,1fr) ;
+ }
+ footer{
+    display:flex;
+    justify-content: space-around;
+ }
