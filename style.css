@@ -4,7 +4,7 @@
 }
 
 
-.modify{
+.modify ul{
     display: flex;
     list-style: none;
     
@@ -26,6 +26,7 @@
 .navbar{
     display: flex;
     justify-content: space-between;
+    padding: ;
     align-items: center;
     
     
@@ -153,9 +154,13 @@ h5{
         text-align: center;
         font-size: larger;
     }
+    .parent{
+        padding: 0;
+    }
+
     .images{
         display: flex;
-        justify-content:space-between;
+        justify-content:center;
         border-radius: 10%;
         padding-bottom: 119px;
         padding:5%;
@@ -175,29 +180,12 @@ h5{
     .bg1{
         width: 366px;
         height:200px;
-        padding: 5px;
-
-
-        
-        
-     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/deal-bloom.png);
-     background-size:;
-     margin:;
-     padding:;
-     
-     
-     border-radius: 22px;
-
-     
-     
-
-
-    }
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/deal-bloom.png);
+        border-radius: 22px;}
     .bg2 {
         width: 366px;
         height: 200px;
-        margin-top: 10px;
-        padding-right: 25px;
+        margin-top: 20px;
         
         
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/deal-ana.png');
@@ -207,10 +195,13 @@ h5{
 
     .bg3{
       width: 700px;
-      height: 450px;
+      height: 425px;
       background-image: url(./assets/deal-zabo.png);
       background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/deal-zabo.png');
-    border-radius: 22px;}
+    border-radius: 22px;
+    margin-left: 20px;
+}
+    
     .white{
         color: white;
         text-align: center;
