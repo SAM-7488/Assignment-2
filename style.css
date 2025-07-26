@@ -7,22 +7,27 @@
 .modify{
     display: flex;
     list-style: none;
+    
      
+}
+.logo{
+    padding-left: 20px;
+    padding-top: 20px;
 }
 
 
 .nav-link {
-   justify-content: space-between;
-    margin-right: 30px;
+    margin-right: 40px;
      text-decoration: none;
+     
      
 
 }
-.nav-items{
+.navbar{
     display: flex;
     justify-content: space-between;
-    padding: 30px;
-    margin-left: 30px;
+    align-items: center;
+    
     
   
 }
@@ -38,6 +43,9 @@
 }
 .nav-one{
     color:black;
+}
+.extra-cart{
+    display: none;
 }
 .text-part{
    gap:
@@ -133,7 +141,7 @@ h5{
      width: 13%;
      position:absolute;
      left:620px ;
-    bottom: -1055px;
+    bottom: -990px;
     }
     .text-color{
         color: rgb(46, 45, 45);
@@ -173,10 +181,10 @@ h5{
         
         
      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/deal-bloom.png);
-     background-size: cover;
-     margin:20px;
-     /* padding: 10%;
-     background-repeat: no-repeat; */
+     background-size:;
+     margin:;
+     padding:;
+     
      
      border-radius: 22px;
 
@@ -213,6 +221,7 @@ h5{
         }
         .size{
             font-size: larger;
+            list-style:circle;
         }
         .division-3{
             font-size: larger;
@@ -245,6 +254,7 @@ h5{
     align-items: center;
     justify-items: center;
     padding-left:10px ;
+    border: 0;
 
 }
 
@@ -284,11 +294,107 @@ h5{
  .box-2 p ,.box-3 p{
     margin-bottom: 20px;
  }
- @media screen {
-    .nav-items{
-        max-width: 425px;
+    
+ @media screen and (max-width:375px) {
+    
+    header{
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
     
+    .modify{
+        display: none;
+    }
+    /* .modify .extra{
+        display: space-between;
+    }
+     */
+     .extra-cart{
+        display: block;
+     }
+     .banner{
+        flex-direction: column-reverse;
+     }
+     .governing-body{
+        flex-direction: column-reverse;
+        padding: 0;
+     }
+     .image img{
+        width: 370px;
+        
+     }
+     .image{
+        padding: 0;
+        margin: 0;
+     }
+     .text-decoration h1{
+        font-size: 24px;
+        margin:0;
+        padding: 0px;
+     }
+     .text-part{
+        margin-top: 30px;
+     }
+     .governing-body-2 h2{
+        font-size: 24px;
+     }
+     .governing-body-2{
+        margin-top: 30px;
+     }
+     .card-base{
+        grid-template-columns: repeat(2 , 1fr);
+        padding: 0;
+     }
+     .card img{
+        width: 170px;
+     }
+     .badge{
+        display: none;
+     }
+     .flower-cell{
+        flex-direction: column;
+        padding: 0;
+     }
+     .man{
+        width: 358px;
+     }
+     .size{
+        list-style:circle;
+     }
+     .bold-marks{
+        padding: 5px;
+     }
+     .bold-marks h1{
+        font-size: 24px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+     }
+     .bold-marks ul{
+        font-size: 14px;
+     }
+     .images{
+        padding: 0;
+        flex-direction: column;
+     }
+     .bg1{
+        padding: 0;
+     }
+     .bg2{
+        width: 100%;
+        padding: 0%;
+     }
+     .bg1 ,.bg2 ,.bg3{
+        width:97%;
+        height: 180px;
+        margin: 5px;
+     }
+     #mail-chamber{
+        width: 85%;
+        margin-bottom: 20px;
+     }
+     .align{
+        flex-direction: column;
+        gap: 10px;
+     }
  }
